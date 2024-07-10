@@ -5,6 +5,11 @@
 }
 
 /* Shared Styles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .text-primary{
     color: #0D1321;
 }
@@ -16,13 +21,13 @@
     font-weight: 600;
     background-color: white;
     padding: 10px 24px;
-    border: 1px solid rgba(13, 19, 33, 70%) ;
+    border: 1px solid rgba(13, 19, 33, 70%);
 }
 /* Nav Styles */
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0px 150px;
+    margin: 40px 150px;
 }
 nav ul{
     display: flex;
@@ -51,8 +56,6 @@ nav ul li{
     background-image: url('../images/Hero-bg.png');
     width: 100%;
     height: auto;
-    background-repeat: no-repeat;
-    margin:15px 0px;
 }
 .banner-pic{
     margin: 0 40%;
@@ -82,9 +85,6 @@ nav ul li{
 }
 
 /* Web Development section Styles */
-.development-container{
-    
-}
 .section-title{
     font-size: 32px;
     font-weight: bolder;
@@ -113,4 +113,19 @@ nav ul li{
 .dvelopment-description{
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Inspiration section Styles */
+.inspiration-video{
+    display: flex;
+    justify-content:center;   
+    border: 1px solid rgba(13, 19, 33, 70%);
+    width: 75%;
+    padding: 40px 0px ;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.inspiration-video iframe{
+    border-radius: 10px;
+
 }
