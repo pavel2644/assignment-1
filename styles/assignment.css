@@ -8,7 +8,16 @@
 .text-primary{
     color: #0D1321;
 }
-
+.text-secondary{
+    color: rgba(13, 19, 33, 70%); 
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    padding: 10px 24px;
+    border: 1px solid rgba(13, 19, 33, 70%) ;
+}
 /* Nav Styles */
 nav{
     display: flex;
@@ -70,4 +79,38 @@ nav ul li{
     border-radius: 8px;
     padding: 17px 24px;
     margin-bottom: 5%;
+}
+
+/* Web Development section Styles */
+.development-container{
+    
+}
+.section-title{
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 8%;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 25px 290px;
+    text-align-last: center;
+}
+.development-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 280px;
+}
+.development-text{
+    max-width: 50%;
+}
+.development-title{
+    font-size: 24px;
+    font-weight: 700;   
+}
+.dvelopment-description{
+    font-size: 16px;
+    font-weight: 400;
 }
