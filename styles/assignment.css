@@ -16,6 +16,9 @@
 .text-secondary{
     color: rgba(13, 19, 33, 70%); 
 }
+.text-3{
+    color: #FFFFFF;
+}
 .btn-primary{
     font-size: 20px;
     font-weight: 600;
@@ -165,4 +168,64 @@ nav ul li{
 }
 .target-container img{
     margin-top: 15px;
+}
+.target-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Support Form Styles */
+.support-section{
+    background-image: url('../images/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 60px 150px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.support-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: px;
+}
+.support-description{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+form{
+    margin-top: 50px;
+}
+.support-text{
+    padding-top: 200px;
+}
+input[type="text"]{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px;
+    padding: 17px 24px;
+    width: 350px;
+}
+.btn-submit{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 70%); 
+    background-color: white;
+    border-radius: 8px;
+    padding: 14px 24px; 
+}
+/* Footer Section */
+.footer-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 150px;
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
 }
